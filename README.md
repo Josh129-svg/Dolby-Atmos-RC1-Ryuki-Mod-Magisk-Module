@@ -11,6 +11,7 @@
 
 ## Installation Guide
 - Remove another Dolby module
+- Disable stock dax Service app
 - Reboot
 - Install via Magisk Manager only
 - Reboot

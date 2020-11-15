@@ -37,7 +37,7 @@
 https://play.google.com/store/apps/details?id=com.dp.logcatapp
 - Send run also:
   - `su`
-  - `dumpsys media.audio_flinger`
+  - `dumpsys media.audio_flinger > /sdcard/dump.txt`
 
 ## Credits
 - @guitardedhero

@@ -17,20 +17,19 @@
 - Reboot
 
 ## Optional
-- If SE policy patch doesn't work for your device, send logcats to dev, then try using force permissive method.
-  Run at Terminal Emulator before flash:
-  - su
-  - setprop dolby.force.permissive 1
 - If using multiple audio mods, use one of these bellow, don't use both:
   - AML 4.0 supported
   - ACDB supported (Android 10 and bellow only for now)
 - You can rename dap-default extension to use more bass enhancer boost. See /data/adb/modules_update/DolbyAtmos/system/vendor/etc/dolby
 
 ## Troubleshooting
+- If SE policy patch doesn't work for your device, send logcats to dev, then try using force permissive method.
+  Run at Terminal Emulator before flash:
+  - su
+  - setprop dolby.force.permissive 1
 - If Dolby force close, just reinstall again.
 - Make sure manifest.xml is patched correctly.
 - Use Audio Compatibility Patch if you encounter processing problem.
-- If se patch still fail even added to sepolicy.rule, then add `setenforce 0` to the top of service.sh. Give logcats for fix.
 - If you have some issues, like ringtones, alarm tones doesn't work, or calls opposite person doesn't hear, [do this fix.](https://t.me/audioryukimods/543)
 
 ## Attention!

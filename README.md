@@ -6,7 +6,7 @@
 - Doesn't work with dynamic partitions
 
 ## Requirements
-- Android 9, 10, or 11 64 and 32 bit devices
+- Android 9, 10, or 11
 - Magisk installed
 
 ## Installation Guide
@@ -17,6 +17,10 @@
 - Reboot
 
 ## Optional
+- If SE policy patch doesn't work for your device, send logcats to dev, then try using force permissive method.
+  Run at Terminal Emulator before flash:
+  - su
+  - setprop dolby.force.permissive 1
 - If using multiple audio mods, use one of these bellow, don't use both:
   - AML 4.0 supported
   - ACDB supported (Android 10 and bellow only for now)

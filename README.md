@@ -42,4 +42,11 @@ https://play.google.com/store/apps/details?id=com.dp.logcatapp
 ## Credits
 - @guitardedhero
 
+## Groups discussion
+- https://t.me/joinchat/E-On6U9cxckhIlAnoPIYpw
+- https://t.me/@modsandco
+
+## Donate
+- https://www.paypal.me/reiryuki
+
            - Enjoy the Atmos 🎧 -
